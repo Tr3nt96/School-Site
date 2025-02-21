@@ -1,14 +1,26 @@
-header {
+  header {
     background-color: darkolivegreen;
     font-size: 100%;
     display: flex;
   }
-  nav {
-    background-color: whitesmoke;
-    display: flex; align-items: center;
-  }
-  div {
 
+  nav {
+    position: relative;
+  }
+  
+  nav img {
+    width: 100%;
+  }
+  
+  nav .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 128, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
   }
 
   a:link {
