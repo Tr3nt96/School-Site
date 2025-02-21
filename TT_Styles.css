@@ -1,0 +1,28 @@
+header {
+    background-color: darkolivegreen;
+    font-size: 100%;
+    display: flex;
+  }
+  nav {
+    background-color: whitesmoke;
+    display: flex; align-items: center;
+  }
+  div {
+
+  }
+
+  a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a:hover {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+  a:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+  }
