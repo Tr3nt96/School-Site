@@ -1,5 +1,5 @@
   nav {
-    background-color: darkolivegreen;
+    background-color: #b5b35c;
     font-size: 100%;
     display: flex;
   }
@@ -28,25 +28,32 @@
   div {
     display: inline-block;
     width: 30%;
-    margin-right: 30px;
+    margin-right: 35px;
   }
   div img {
-    width: 400px;
+    width: 100%;
     height: auto;
   }
 
-  a:link {
-      color: white;
-      background-color: transparent;
-      text-decoration: none;
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #b5b35c;
   }
-  a:hover {
-      color: white;
-      background-color: transparent;
-      text-decoration: underline;
+
+  a {
+    color: white;
+    text-decoration: none;
   }
-  a:active {
-      color: white;
-      background-color: transparent;
-      text-decoration: underline;
+
+  a:hover, a:active {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .info-box {
+    font-size: 70%;
+    margin-left: 20px;
   }
