@@ -2,20 +2,22 @@ nav {
   background-color: #b5b35c;
   font-size: 100%;
   display: flex;
+  margin-bottom: 3px;
 }
 
   header {
     display: flex;
+    margin-bottom: 3px;
   }
  
   section {
     position: relative;
-    border-top: 5px;
+    margin-top: 3px;
   }  
   section img {
     width: 100%;
   }  
-  section .overlay {
+  .retblu {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,15 +55,27 @@ nav {
     text-decoration: underline;
   }
 
-  .info-box {
-    font-size: 70%;
+  .nomeitts {
+    font-size: 210%;
     margin-left: 20px;
-  }
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    width: auto;
+}
 
-  article {
-    background-color: whitesmoke;
+  .indirizzi {
+    background-color: #ede8d0;
     font-size: 100%;
     text-align: center;
     border-top: 5px;
     padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .spec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
   }
